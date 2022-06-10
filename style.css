@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */ 
+}
+.container
+{
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formData{
+    width: 100%;
+    padding: 11px;
+    max-width: 328px;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 44px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.heading{
+  
+    margin: 30px 0;
+    font-size: 48px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+    }
+.input{
+    outline: none;
+    padding: 10px;
+    margin-right: 45px;
+    border:none;
+    border-radius: 13px;
+    background: purple;
+    color: white;
+}
+.input::placeholder{
+  color: white;
+}
+
+.addBtn{
+    width: 100%;
+    background: purple;
+    border-radius: 12px;
+    max-width: 65px;
+    border: none;
+    color: white;
+}
+
+.list{
+
+    list-style: none;
+    text-decoration: none;
+}
+.todo_list{
+  
+   
+    width: 100%;
+  
+    max-width: 470px;
+    margin: 20px 0;
+  
+}
+.main{
+    width: 100%;
+    /* border: 1px solid black; */
+    max-width: 711px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.items {
+    font-size: 27px;
+    padding: 10px;
+    margin: 15px 0;
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 21px;
+    justify-content: space-between;
+    align-items: center;
+    background: purple;
+    color: white;
+}
+.spanbutton
+{
+    display: inline-flex;
+    justify-content: space-between;
+    max-width: 64px;
+    width: 100%;
+    
+}
